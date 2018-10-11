@@ -10,7 +10,7 @@ import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
 
 public class Main extends Application {
-	private static final String RESOURCE = "net/snortum/javafx/bindingsdemo/BindingsDemo.fxml";
+	private static final String RESOURCE = "BindingsDemo.fxml";
 
 	public static void main(String[] args) {
 		launch();
