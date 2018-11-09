@@ -33,7 +33,7 @@ public class Main extends Application {
 		// Must use an instance method of load()
 		BorderPane root = loader.<BorderPane>load();
 		BookController bookController = loader.getController();
-		// Controller need the stage in order to close properly
+		// Controller needs the stage in order to close properly
 		bookController.setStage(stage);
 		
 		stage.setScene(new Scene(root));
